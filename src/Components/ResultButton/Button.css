@@ -1,0 +1,20 @@
+.resultBtn {
+  margin-top: 30px;
+  width: 200px;
+  height: 80px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 12px 0;
+  background-color: #2f023f;
+}
+.resultBtn h3,
+p {
+  color: #cecccc;
+  text-align: center;
+  font-weight: normal;
+  font-size: 24px;
+}
+.resultBtn span {
+  margin-left: 4px;
+  font-size: 18px;
+}

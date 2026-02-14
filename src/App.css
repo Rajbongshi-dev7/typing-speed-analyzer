@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bg-color {
+  background-color: #230130;
+  padding: 0 10%;
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+}

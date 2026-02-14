@@ -1,0 +1,17 @@
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding-top: 60px;
+}
+.flex h3 {
+  font-size: 45px;
+  color: white;
+  margin-bottom: 20px;
+}
+p {
+  font-size: 25px;
+  color: #505858;
+  text-align: center;
+}

@@ -1,0 +1,64 @@
+.textArea {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: repeat(4, auto);
+  margin-bottom: 90px;
+  margin-top: 20px;
+}
+.testBox {
+  border: 1px solid #4b4546;
+  border-radius: 10px;
+  padding: 50px;
+}
+.sentenceBox {
+  margin: 30px 0;
+}
+#sentence {
+  color: rgb(0, 183, 255);
+}
+.scorers {
+  border: 1px solid #4b4546;
+  border-radius: 10px;
+  grid-row: span 4;
+  height: 100%;
+}
+.typingArea {
+  border: 1px solid #4b4546;
+  border-radius: 10px;
+  background-color: transparent;
+  color: rgb(3, 229, 245);
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 10px;
+  resize: none;
+  font-size: 20px;
+}
+.text {
+  color: rgb(235, 231, 3);
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.resultsBtn {
+  display: flex;
+  justify-content: space-between;
+}
+.startBtn {
+  grid-row: span 2;
+}
+.startBtn button {
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    rgb(226, 156, 6),
+    rgba(223, 29, 181, 0.459)
+  );
+  margin-top: 30px;
+  border: none;
+  border-radius: 10px;
+  height: 60px;
+  font-size: 28px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
